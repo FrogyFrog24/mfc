@@ -5,11 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/main.css">
+    <script src="script/utils.js" defer> </script>
     <title>МТС МФЦ</title>
   </head>
   <body> 
-        <header class="header wrapper">
-          <div class="logo"><img class="logo__img" src="assets/svg/logo.svg" alt="logo"></div>
+        <header class="header page-wrapper">
+              <div class="logo"><img class="logo__img" src="assets/svg/logo.svg" alt="logo"></div>
           <div class="contacts">
             <div class="contacts__item"><svg class="contacts__icon" width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M18.3333 0.5H1.66668C0.747461 0.5 0 1.24746 0 2.16668V13.8334C0 14.7525 0.747461 15.5 1.66668 15.5H18.3334C19.2525 15.5 20 14.7525 20 13.8333V2.16668C20 1.24746 19.2525 0.5 18.3333 0.5ZM1.66668 1.33332H18.3334C18.3948 1.33332 18.4489 1.3557 18.5065 1.36836C17.0636 2.68895 12.279 7.06598 10.6047 8.57453C10.4737 8.69254 10.2625 8.83332 10 8.83332C9.73758 8.83332 9.52641 8.69254 9.39496 8.57414C7.72078 7.06582 2.93598 2.68855 1.49328 1.36844C1.55102 1.35578 1.60523 1.33332 1.66668 1.33332ZM0.83332 13.8333V2.16668C0.83332 2.08504 0.85793 2.01098 0.879961 1.93637C1.98434 2.94715 5.32277 6.00121 7.48746 7.96969C5.3298 9.82309 1.99051 12.989 0.877344 14.0505C0.857695 13.9796 0.83332 13.9104 0.83332 13.8333ZM18.3333 14.6667H1.66668C1.60012 14.6667 1.54094 14.6435 1.47879 14.6286C2.62906 13.5321 5.98961 10.3479 8.10934 8.53453C8.38566 8.7852 8.63809 9.01375 8.83707 9.19305C9.18051 9.50312 9.5825 9.66668 10 9.66668C10.4175 9.66668 10.8195 9.50309 11.1625 9.19344C11.3616 9.01406 11.6142 8.78531 11.8907 8.53453C14.0105 10.3477 17.3706 13.5316 18.5212 14.6286C18.4591 14.6435 18.4 14.6667 18.3333 14.6667ZM19.1667 13.8333C19.1667 13.9103 19.1423 13.9796 19.1227 14.0505C18.0091 12.9885 14.6702 9.82289 12.5126 7.96973C14.6773 6.00125 18.0153 2.94746 19.12 1.93629C19.1421 2.0109 19.1667 2.085 19.1667 2.16664V13.8333Z" fill="#303030" />
@@ -26,17 +27,15 @@
           </div>
         </header>
     <main class="main">
-          <div class="nav-background">
-            <nav class="nav wrapper"><a class="nav__link" href="#">О нас</a><a class="nav__link" href="#">Открытие бизнеса</a><a class="nav__link" href="#">Бухгалтерские услуги</a><a class="nav__link" href="#">Онлайн касса</a><a class="nav__link" href="#">Блок</a><a class="nav__link" href="#">Франшиза</a><a class="nav__link" href="#">Контакты</a></nav>
-          </div>
-      <section class="promo wrapper"><svg class="corner" width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <nav class="nav page-wrapper"><a class="nav__link" href="#">О нас</a><a class="nav__link" href="#">Открытие бизнеса</a><a class="nav__link" href="#">Бухгалтерские услуги</a><a class="nav__link" href="#">Онлайн касса</a><a class="nav__link" href="#">Блок</a><a class="nav__link" href="#">Франшиза</a><a class="nav__link" href="#">Контакты</a></nav>
+      <section class="promo page-wrapper"><svg class="corner" width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M7.62939e-06 -4.37114e-06L3.25826e-06 100L100 0L7.62939e-06 -4.37114e-06Z" fill="#B3906E" />
 </svg>
-        <h1 class="promo__title">МТС 3В1 ДЛЯ<br>ВАШЕГО БИЗНЕСА</h1>
+        <h1 class="section__title">МТС 3В1 ДЛЯ<br>ВАШЕГО БИЗНЕСА</h1>
         <div class="promo__paragraph"><span class="promo__text">Бесплатная онлайн-касса</span><span class="promo__text">+ торговый эквайринг</span><span class="promo__text">+ расчетный счет</span></div>
         <button class="get-consult-button">Получить консультацию</button>
       </section>
-      <section class="conditions wrapper">
+      <section class="conditions card-grid-wrapper page-wrapper">
         <div class="info-card"><span class="info-card__title">Онлайн-касса<br>под ключ за 0 ₽</span>
           <div class="info-card__wrapper">
             <div class="info-card__paragraph"><span class="info-card__text_highligthed">0₽ </span>
@@ -77,12 +76,12 @@
           </div>
         </div>
       </section>
-      <section class="connection wrapper"><svg class="corner " width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <section class="connection page-wrapper"><svg class="corner " width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M7.62939e-06 -4.37114e-06L3.25826e-06 100L100 0L7.62939e-06 -4.37114e-06Z" fill="#B3906E" />
 </svg>
-        <div class="connection__title">Как подключиться</div>
-        <div class="connection-steps">
-          <div class="connection-steps-item"><svg class="connection-steps-item__image" width="120" height="97" viewBox="0 0 120 97" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <h2 class="section__title connection__title">Как подключиться</h2>
+        <div class="connection-steps card-grid-wrapper">
+          <div class="connection-steps__item"><svg class="connection-steps__image" width="120" height="97" viewBox="0 0 120 97" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path opacity="0.2" d="M44.2529 31.4775V97H26.1475V54.0654C23.2178 56.292 20.376 58.0938 17.6221 59.4707C14.8975 60.8477 11.4697 62.166 7.33887 63.4258V48.748C13.4326 46.7852 18.1641 44.4268 21.5332 41.6729C24.9023 38.9189 27.5391 35.5205 29.4434 31.4775H44.2529Z" fill="#60773D" />
 <g clip-path="url(#clip0_448_440)">
 <path d="M51.9806 79.0001H55.9808V82.9998C55.9808 85.2092 57.7716 87 59.9805 87H107.981C110.19 87 111.981 85.2092 111.981 82.9998V19.0001C111.981 16.7906 110.19 14.9999 107.981 14.9999H103.981V11.0002C103.981 8.79077 102.19 7 99.9805 7H62.6477C62.6221 7 62.5983 7.01343 62.5726 7.01465C62.4506 7.02136 62.3297 7.04517 62.2144 7.08667C62.1747 7.1001 62.1356 7.11536 62.0978 7.13306C61.9495 7.19714 61.814 7.28748 61.698 7.39978L48.3649 20.7335C48.2532 20.8464 48.1628 20.9789 48.0981 21.1241C48.0792 21.165 48.0688 21.2065 48.0542 21.2493C48.0157 21.3597 47.9926 21.4751 47.9858 21.5923C47.9858 21.6216 47.9688 21.6466 47.9688 21.6759V74.9999C47.9688 76.0631 48.3917 77.0824 49.1443 77.8325C49.8975 78.5833 50.918 79.0032 51.9806 79.0001ZM107.981 17.6665C108.717 17.6665 109.314 18.2634 109.314 19.0001V82.9998C109.314 83.7365 108.717 84.3334 107.981 84.3334H59.9805C59.2444 84.3334 58.6475 83.7365 58.6475 82.9998V79.0001H99.9805C102.19 79.0001 103.981 77.2094 103.981 74.9999V17.6665H107.981ZM101.314 11.0002V74.9999C101.314 75.7366 100.717 76.3335 99.9805 76.3335H51.9806C51.2445 76.3335 50.6476 75.7366 50.6476 74.9999V22.9998H59.9805C62.1899 22.9998 63.9807 21.209 63.9807 19.0001V9.66663H99.9805C100.717 9.66663 101.314 10.2635 101.314 11.0002ZM61.3141 11.552V19.0001C61.3141 19.7362 60.7172 20.3331 59.9805 20.3331H52.533L61.3141 11.552Z" fill="#60773D" />
@@ -104,10 +103,10 @@
 <rect width="80" height="80" fill="white" transform="translate(40 7)" />
 </clipPath>
 </defs>
-</svg><span class="connection-steps-item__title">Оставьте заявку</span>
-            <div class="connection-steps-item__text">на открытие расчётного счёта и получите доступ к личному кабинету для загрузки документов онлайн</div>
+</svg><span class="connection-steps__title">Оставьте заявку</span>
+            <div class="connection-steps__text">на открытие расчётного счёта и получите доступ к личному кабинету для загрузки документов онлайн</div>
           </div>
-          <div class="connection-steps-item"><svg width="120" class="connection-steps-item__image" height="97" viewBox="0 0 120 97" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <div class="connection-steps__item"><svg width="120" class="connection-steps__image" height="97" viewBox="0 0 120 97" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path opacity="0.2" d="M56.0742 97H2.37305C2.98828 91.6973 4.84863 86.7168 7.9541 82.0586C11.0889 77.3711 16.9482 71.8486 25.5322 65.4912C30.7764 61.5947 34.1309 58.6357 35.5957 56.6143C37.0605 54.5928 37.793 52.6738 37.793 50.8574C37.793 48.8945 37.0605 47.2246 35.5957 45.8477C34.1602 44.4414 32.3438 43.7383 30.1465 43.7383C27.8613 43.7383 25.9863 44.4561 24.5215 45.8916C23.0859 47.3271 22.1191 49.8613 21.6211 53.4941L3.69141 52.0439C4.39453 47.0049 5.68359 43.0791 7.55859 40.2666C9.43359 37.4248 12.0703 35.2568 15.4688 33.7627C18.8965 32.2393 23.6279 31.4775 29.6631 31.4775C35.9619 31.4775 40.8545 32.1953 44.3408 33.6309C47.8564 35.0664 50.6104 37.2783 52.6025 40.2666C54.624 43.2256 55.6348 46.5508 55.6348 50.2422C55.6348 54.168 54.4775 57.918 52.1631 61.4922C49.8779 65.0664 45.7031 68.9922 39.6387 73.2695C36.0352 75.7598 33.6182 77.5029 32.3877 78.499C31.1865 79.4951 29.7656 80.7988 28.125 82.4102H56.0742V97Z" fill="#60773D" />
 <g clip-path="url(#clip0_448_441)">
 <path d="M116 73.4C108.042 69.18 101.938 66.8138 96.5044 65.9066L97.0667 65.1334C97.3334 64.8667 97.4667 64.4667 97.3334 64.0667L96.0839 59.0687C96.5367 58.4286 96.9639 57.7667 97.3641 57.0863C102.333 55.3952 104.845 52.5366 105.268 48.3278C107.45 48.2141 109.333 46.2661 109.333 44.0667V34.0667C109.333 31.8773 107.592 29.9372 105.31 29.8073C105.016 22.1048 101.62 7 80 7C58.3795 7 54.9836 22.1055 54.69 29.8078C52.5255 29.9356 50.6667 31.753 50.6667 34.0666V44.0666C50.6667 46.3333 52.6667 48.3333 55.0667 48.3333H57.0667C57.8017 48.3333 58.5081 48.122 59.1234 47.7605C59.8795 51.7738 61.5481 55.7211 63.9162 59.0686L62.6667 64.0666C62.6667 64.3333 62.6667 64.7333 62.9334 65.1333L63.4958 65.9064C58.062 66.8138 51.958 69.1798 44.0002 73.3998C41.4667 74.6 40 77.1333 40 79.9333V85.6666C40 86.4667 40.5333 87 41.3333 87H73.3333H73.8666H86.1333H86.6666H118.667C119.467 87 120 86.4667 120 85.6667V79.9334C120 77.2667 118.4 74.7333 116 73.4ZM80.0073 70.3502L83.2 77.6667H76.7555L80.0073 70.3502ZM75.7867 80.3333H84.2081L84.9886 84.3333H74.9866L75.7867 80.3333ZM94 61.6667L94.5333 64.0667L93.1712 65.9369C93.0844 66.008 93.0039 66.0941 92.9333 66.2L87.3872 73.8792L85.6275 76.2955L82.033 68.2078C86.417 67.6731 90.3211 65.4388 93.4513 62.2372C93.6363 62.0506 93.8194 61.8611 94 61.6667ZM99.2064 53.3725C99.9584 51.5427 100.525 49.6406 100.884 47.7234C101.391 48.0309 101.969 48.2364 102.593 48.3061C102.361 50.1908 101.524 51.9702 99.2064 53.3725ZM106.533 33.9333V43.9333C106.533 44.7333 105.867 45.5333 104.933 45.5333H102.933C102.133 45.5333 101.333 44.8666 101.333 43.9333V43V33.9333C101.333 33.1333 102 32.3333 102.933 32.3333H104.933C105.733 32.3333 106.533 33 106.533 33.9333ZM80 9.66672C88.2183 9.66672 102.05 12.3495 102.644 29.8217C102.086 29.8791 101.55 30.0489 101.066 30.3098C99.4439 20.1566 90.5917 12.3333 80 12.3333C69.4097 12.3333 60.5584 20.1544 58.9342 30.3055C58.4573 30.048 57.9248 29.8778 57.3555 29.8213C57.9505 12.3495 71.7819 9.66672 80 9.66672ZM58.5333 43.9333C58.5333 44.7333 57.8666 45.5333 56.9333 45.5333H54.9333C54.1333 45.5333 53.3333 44.8666 53.3333 43.9333V33.9333C53.3333 33.1333 54 32.3333 54.9333 32.3333H56.9333C57.7333 32.3333 58.5333 33 58.5333 33.9333V43.9333ZM61.3333 33.6667C61.3333 23.4 69.7333 15 80 15C90.2667 15 98.6667 23.4 98.6667 33.6667V43C98.6667 47.4112 97.5183 51.4498 95.6564 54.8573C92.4739 55.7805 87.8956 56.3333 81.3334 56.3333C80.5334 56.3333 80.0002 56.8666 80.0002 57.6666C80.0002 58.4666 80.5334 58.9998 81.3334 58.9998C86.1373 58.9998 90.155 58.7048 93.4452 58.0881C93.3634 58.1698 93.2817 58.2516 93.2 58.3333C92.5292 59.2277 91.8213 60.0431 91.0816 60.7784C87.942 63.7033 84.1975 65.475 80.5891 65.6505C80.4075 65.5725 80.2039 65.5333 80 65.5333C79.795 65.5333 79.6103 65.5734 79.4447 65.6522C77.2359 65.5509 74.9755 64.8508 72.8328 63.6533C70.662 62.4061 68.62 60.6081 66.8 58.3333C66.6667 58.2 66.5333 58.0666 66.4 57.9333L66.3222 57.9073C63.3278 53.9802 61.3333 48.8137 61.3333 43V33.6667ZM77.9669 68.2078L74.3723 76.2955L72.6127 73.8792L67.0666 66.2C67.0241 66.1575 66.9772 66.1155 66.9284 66.0741L65.4666 64.0667L65.9998 61.6667C66.1803 61.8611 66.3634 62.0505 66.5481 62.2369C69.6784 65.4384 73.5828 67.673 77.9669 68.2078ZM42.6667 79.9333C42.6667 78.2 43.6 76.6 45.2 75.8C53.6989 71.285 59.8169 69.0189 65.2669 68.342L73.2234 79.2823L72.2133 84.3333H42.6667V79.9333ZM117.333 84.3333H87.7867L86.7766 79.2823L94.8194 68.2234C100.25 69.043 106.478 71.3073 114.8 75.6666C116.4 76.5998 117.333 78.1998 117.333 79.9333V84.3333H117.333Z" fill="#60773D" />
@@ -117,53 +116,106 @@
 <rect width="80" height="80" fill="white" transform="translate(40 7)" />
 </clipPath>
 </defs>
-</svg><span class="connection-steps-item__title">Ожидайте звонка</span>
-            <div class="connection-steps-item__text">специалист свяжется с вами для открытия счёта и для подключения онлайн-кассы и эквайринга</div>
+</svg><span class="connection-steps__title">Ожидайте звонка</span>
+            <div class="connection-steps__text">специалист свяжется с вами для открытия счёта и для подключения онлайн-кассы и эквайринга</div>
           </div>
-          <div class="connection-steps-item"><svg width="121" class="connection-steps-item__image" height="99" viewBox="0 0 121 99" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <div class="connection-steps__item"><svg width="121" class="connection-steps__image" height="99" viewBox="0 0 121 99" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path opacity="0.2" d="M21.0498 51.209L4.13086 48.1768C5.53711 42.7861 8.23242 38.6553 12.2168 35.7842C16.2305 32.9131 21.8994 31.4775 29.2236 31.4775C37.6318 31.4775 43.7109 33.0449 47.4609 36.1797C51.2109 39.3145 53.0859 43.2549 53.0859 48.001C53.0859 50.7842 52.3242 53.3037 50.8008 55.5596C49.2773 57.8154 46.9775 59.793 43.9014 61.4922C46.3916 62.1074 48.2959 62.8252 49.6143 63.6455C51.7529 64.9639 53.4082 66.707 54.5801 68.875C55.7812 71.0137 56.3818 73.5771 56.3818 76.5654C56.3818 80.3154 55.4004 83.9189 53.4375 87.376C51.4746 90.8037 48.6475 93.4551 44.9561 95.3301C41.2646 97.1758 36.416 98.0986 30.4102 98.0986C24.5508 98.0986 19.9219 97.4102 16.5234 96.0332C13.1543 94.6562 10.3711 92.6494 8.17383 90.0127C6.00586 87.3467 4.33594 84.0068 3.16406 79.9932L21.0498 77.6201C21.7529 81.2236 22.8369 83.7285 24.3018 85.1348C25.7959 86.5117 27.6855 87.2002 29.9707 87.2002C32.373 87.2002 34.3652 86.3213 35.9473 84.5635C37.5586 82.8057 38.3643 80.4619 38.3643 77.5322C38.3643 74.5439 37.5879 72.2295 36.0352 70.5889C34.5117 68.9482 32.4316 68.1279 29.7949 68.1279C28.3887 68.1279 26.4551 68.4795 23.9941 69.1826L24.917 56.3945C25.9131 56.541 26.6895 56.6143 27.2461 56.6143C29.5898 56.6143 31.5381 55.8672 33.0908 54.373C34.6729 52.8789 35.4639 51.1064 35.4639 49.0557C35.4639 47.0928 34.8779 45.5254 33.7061 44.3535C32.5342 43.1816 30.9229 42.5957 28.8721 42.5957C26.7627 42.5957 25.0488 43.2402 23.7305 44.5293C22.4121 45.7891 21.5186 48.0156 21.0498 51.209Z" fill="#60773D" />
 <path d="M58.8642 29.0529C54.7835 29.0529 51.4758 25.7447 51.4758 21.6646C51.4758 17.584 54.7835 14.2767 58.8642 14.2767C62.9443 14.2767 66.252 17.584 66.252 21.6646C66.2481 25.7428 62.9424 29.0486 58.8642 29.0529ZM58.8642 16.7393C56.1436 16.7393 53.9384 18.944 53.9384 21.6646C53.9384 24.3847 56.1436 26.5903 58.8642 26.5903C61.5842 26.5903 63.7894 24.3847 63.7894 21.6646C63.7894 18.944 61.5842 16.7393 58.8642 16.7393Z" fill="#60773D" />
 <path d="M88.4167 63.5309V70.9192H74.8721V54.0236L67.4838 51.5605V38.9038H78.5658C81.9645 38.8995 84.7187 36.1452 84.7231 32.747V30.2844H50.2445C46.8459 30.2878 44.0921 33.042 44.0878 36.4412V49.9858C44.0878 52.0259 45.7419 53.68 47.7819 53.68H50.2445V75.8444H44.0878V84.4643H46.5509V78.307H63.7896V84.4643H66.2523V73.3818H88.4167V84.4643H90.8798V65.9935H115.507V84.4643H117.97V63.5309H88.4167ZM50.2445 37.6723V51.2174H47.7819C47.1019 51.2174 46.5509 50.6658 46.5509 49.9858V36.4412C46.5509 34.4002 48.2045 32.747 50.2445 32.747H82.26C82.26 34.7871 80.6059 36.4412 78.5658 36.4412H65.0212V53.3363L72.409 55.799V70.9192H68.7153V57.7519L56.4013 53.1342V75.8444H52.7076V37.6723H50.2445ZM63.7896 70.9192V75.8444H58.8644V56.6883L66.2523 59.4585V70.9192H63.7896Z" fill="#60773D" />
 <path d="M98.2682 59.8368H108.119V29.0529H115.249L103.194 9.46411L91.1388 29.0529H98.2682V59.8368ZM95.5472 26.5903L103.194 14.1627L110.841 26.5903H105.657V57.3741H100.731V26.5903H95.5472Z" fill="#60773D" />
-</svg><span class="connection-steps-item__title">Используйте преимущества</span>
-            <div class="connection-steps-item__text">Проводите операции с пользой для своего бизнеса</div>
+</svg><span class="connection-steps__title">Используйте преимущества</span>
+            <div class="connection-steps__text">Проводите операции с пользой для своего бизнеса</div>
           </div>
         </div>
-        <button class="get-consult-button get-consult-button_centered"> Отправить заявку</button>
+        <div class="connection__button-wrapper">
+          <button class="get-consult-button get-consult-button_centered"> Отправить заявку</button>
+        </div>
+      </section>
+      <section class="faq">
+        <div class="page-wrapper">
+          <h3 class="faq__title section__title">Популярные вопросы</h3>
+          <div class="faq-list">
+                <div class="question">
+                  <div class="question-header">
+                    <div class="question-header__title">Какие преимущества я получу от решения 3 в 1</div>
+                    <button class="action-arrow" onclick="toggleFallingText(this)"><svg width="18" height="11" viewBox="0 0 18 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1 1L9 9L17 1" stroke="#60773D" stroke-width="2"/>
+</svg>
+                    </button>
+                  </div>
+                  <div class="falling-text">- Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</div>
+                </div>
+                <div class="question">
+                  <div class="question-header">
+                    <div class="question-header__title">Как получить решение “3в1” бесплатно?</div>
+                    <button class="action-arrow" onclick="toggleFallingText(this)"><svg width="18" height="11" viewBox="0 0 18 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1 1L9 9L17 1" stroke="#60773D" stroke-width="2"/>
+</svg>
+                    </button>
+                  </div>
+                  <div class="falling-text">- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</div>
+                </div>
+                <div class="question">
+                  <div class="question-header">
+                    <div class="question-header__title">Для какого вида бинеса подходит решение “3в1” </div>
+                    <button class="action-arrow" onclick="toggleFallingText(this)"><svg width="18" height="11" viewBox="0 0 18 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1 1L9 9L17 1" stroke="#60773D" stroke-width="2"/>
+</svg>
+                    </button>
+                  </div>
+                  <div class="falling-text">- Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</div>
+                </div>
+                <div class="question">
+                  <div class="question-header">
+                    <div class="question-header__title">Какие опции входят к подключению онлайн-кассы (ККТ) ?</div>
+                    <button class="action-arrow" onclick="toggleFallingText(this)"><svg width="18" height="11" viewBox="0 0 18 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1 1L9 9L17 1" stroke="#60773D" stroke-width="2"/>
+</svg>
+                    </button>
+                  </div>
+                  <div class="falling-text">- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</div>
+                </div>
+          </div>
+        </div>
+      </section>
+      <section class="consult page-wrapper">
+        <div class="consult-body">
+          <div class="consult-info">
+            <div class="section__title section__title_white">Получите бесплатную<br>консультацию</div>
+            <div class="consult-info__text">Наши специалисты помогут с выбором необходимого оборудования<br>и подберут оптимальную конфигурацию под Ваши конкретные задачи. <br><br>Услуга предоставляется бесплатно.</div>
+          </div>
+          <form class="consult-form">
+            <input class="text-input" type="text" placeholder="Имя">
+            <input class="phone-input" type="tel" onchange="handleChange(this)" autocomplete="on" placeholder="+7 (___) ___ - __ - __">
+            <button class="get-consult-button get-consult-button_centered" type="submit"> Отправить заявку</button>
+          </form>
+        </div>
       </section>
     </main>
         <footer class="footer">
-          <div class="wrapper">
-            <div class="col">
-              <div class="logo"><img src="" alt=""></div>
+          <nav class="page-wrapper">
+            <div class="footer-nav-col">
+                  <div class="logo"><img class="logo__img" src="assets/svg/logo_white.svg" alt="logo"></div>
             </div>
-            <div class="col">
-              <div class="col-title"></div>
+            <div class="footer-nav-col">
+              <div class="footer-nav-col__title">Каталог</div>
             </div>
-            <div class="col"> 
-              <div class="col-title"></div>
+            <div class="footer-nav-col">
+              <div class="footer-nav-col__title">Компания</div><a class="nav__link" href="#">О нас</a><a class="nav__link" href="#">Открытие бизнеса</a><a class="nav__link" href="#">Бухгалтерские услуги</a><a class="nav__link" href="#">Онлайн касса</a><a class="nav__link" href="#">Блок</a><a class="nav__link" href="#">Франшиза</a><a class="nav__link" href="#">Контакты</a>
             </div>
-            <div class="col">
-              <div class="col-title"></div>
-              <div class="phone-number">
-                <h3> </h3>
-                <button></button>
+            <div class="footer-nav-col contacts_column">
+              <div class="footer-nav-col__title">Контакты</div>
+              <div class="contacts__item"><span class="contacts__number">+7(123) 123-45-67</span>
+                <button class="contacts__button">Заказать обратный звонок</button>
               </div>
-              <div class="contacts">
-                <div> 
-                  <svg> </svg><span></span>
-                </div>
-                <div>
-                  <svg> </svg><span></span>
-                </div>
-              </div>
-              <div class="user-city">
-                <div></div>
-                <select></select>
+              <div class="contacts__item"><svg class="contacts__icon" width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M18.3333 0.5H1.66668C0.747461 0.5 0 1.24746 0 2.16668V13.8334C0 14.7525 0.747461 15.5 1.66668 15.5H18.3334C19.2525 15.5 20 14.7525 20 13.8333V2.16668C20 1.24746 19.2525 0.5 18.3333 0.5ZM1.66668 1.33332H18.3334C18.3948 1.33332 18.4489 1.3557 18.5065 1.36836C17.0636 2.68895 12.279 7.06598 10.6047 8.57453C10.4737 8.69254 10.2625 8.83332 10 8.83332C9.73758 8.83332 9.52641 8.69254 9.39496 8.57414C7.72078 7.06582 2.93598 2.68855 1.49328 1.36844C1.55102 1.35578 1.60523 1.33332 1.66668 1.33332ZM0.83332 13.8333V2.16668C0.83332 2.08504 0.85793 2.01098 0.879961 1.93637C1.98434 2.94715 5.32277 6.00121 7.48746 7.96969C5.3298 9.82309 1.99051 12.989 0.877344 14.0505C0.857695 13.9796 0.83332 13.9104 0.83332 13.8333ZM18.3333 14.6667H1.66668C1.60012 14.6667 1.54094 14.6435 1.47879 14.6286C2.62906 13.5321 5.98961 10.3479 8.10934 8.53453C8.38566 8.7852 8.63809 9.01375 8.83707 9.19305C9.18051 9.50312 9.5825 9.66668 10 9.66668C10.4175 9.66668 10.8195 9.50309 11.1625 9.19344C11.3616 9.01406 11.6142 8.78531 11.8907 8.53453C14.0105 10.3477 17.3706 13.5316 18.5212 14.6286C18.4591 14.6435 18.4 14.6667 18.3333 14.6667ZM19.1667 13.8333C19.1667 13.9103 19.1423 13.9796 19.1227 14.0505C18.0091 12.9885 14.6702 9.82289 12.5126 7.96973C14.6773 6.00125 18.0153 2.94746 19.12 1.93629C19.1421 2.0109 19.1667 2.085 19.1667 2.16664V13.8333Z" fill="#303030" />
+</svg><span class="contacts__text">example@mail.com</span>
               </div>
               <div class="social-media"></div>
             </div>
-          </div>
+          </nav>
         </footer>
   </body>
 </html>
